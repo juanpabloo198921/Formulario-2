@@ -14,17 +14,17 @@
   
 
  <header class="largo">
-<label  for="date">fecha de solicitud</label><br>
+<p>fecha de solicitud</p>
 <input  type="date"  name="solicitud"/>
 </header>
 
-<br>
 
 
-<p>
-<label for="date">nombre completo</label><br>
+<div class="h1">
+<p>nombre completo<p>
 <input  type="name">
-</p>
+</div>
+
 
 
 <p>
@@ -83,8 +83,9 @@ seleccione su sexo
 <p>
 <label>direccion</label>
 </p>
+
 <p>
-  <input type="text" placeholder="cra 22 #22c-22"
+  <input type="text" placeholder="cra 22 #22c-22">
 </p>
 
  <p>
@@ -123,31 +124,29 @@ seleccione el tipo de domicilio:
 
 <p>
 <label for="text">¿cuanto tiempo piensas dedicarle a tu mascota?</label>
-<p>
-
-</p> 
-<input type="text">
-</p>
-
-<p>
-<label for="date">fecha de nacimiento</label>
-<p/>
-<p>
-<input type="date">
-
-<p>
-<label for="tel">telefono</label>
 </p>
 
 <p> 
-<input type="tel">
-<p/
-
-<p>
-ciudad
+<input type="text">
 </p>
 
-<p>
+ <div class="columna">
+<p>fecha de nacimiento<p>
+<input  type="number"  name="fecha"/>
+</div>
+
+
+<div class="columna">
+<p>telefono<p>
+<input type="tel">
+</div>
+
+
+<div class="columna">
+
+<p>ciudad</p>
+
+
 <select>
 
 <option>leticia</option>
@@ -185,35 +184,28 @@ ciudad
 
 </select>
 
-</p> 
+</div>
 
-<p>
-<label for="text">¿porque quieres adoptar una mascota?</label>
-</p>
-
-<p>
+<div class="columna">
+<p>¿porque quieres adoptar una mascota?</p>
 <input type="text">
-</p>
+</div>
 
+<div class="columna">
 ¿tienes mascota?
+ <input type="radio" name="¿?" value="si" /> si>
+ <input type="radio" name="¿?" value="no" /> no>
+</div>
 
- <input type="radio" name="¿?" value="si" /> si
- <input type="radio" name="¿?" value="no" /> no
-<p>
- <label for="number">¿cuantos ingresos dispones para tu mascota?</label>
-</p>
-
-<p>
+<div class="columna">
+ <p>¿cuantos ingresos dispones para tu mascota?</p>
 <input type="number">
-</p>
+</div>
 
-<p>
-<label for="text">en caso de estar ausente por un tiempo ¿quien cuidaria tu mascota?</label>
-</p>
-
-<p>
+<div class="columna">
+<p>en caso de estar ausente por un tiempo ¿quien cuidaria tu mascota?</p>
 <input type="text">
-</p>
+</div>
 
  <div>
     <label class="button"></label>
