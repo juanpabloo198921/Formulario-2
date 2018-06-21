@@ -1,0 +1,22 @@
+button {
+	background-color: #4285F4;
+	color:#FFF;
+	padding: 7px 10px;
+}
+
+body{
+	
+	border:black 1px solid;
+	margin:1px;
+	font-family:arial;
+
+}
+
+.largo{
+
+	width: 75%;
+	background-color: #D8D4D4;
+	padding: 15px 10px 11px;
+}
+
+
