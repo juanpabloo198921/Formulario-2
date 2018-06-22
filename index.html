@@ -1,49 +1,63 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>acceder al formulario</title>
-  <link rel="stylesheet" type="text/css" href="style.css">
+<title>acceder al formulario</title>
+<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
- <div>
-   <center>  
-    <button type="submit">acceder al formulario</button>
-    </center>
-  </div>
-  <br>
-  
-
- <header class="largo">
-<label  for="date">fecha de solicitud</label><br>
-<input  type="date"  name="solicitud"/>
-</header>
-
+<div>
+<center>  
+<button type="submit">acceder al formulario</button>
+</center>
+</div>
 <br>
 
+<br>
+<section class="container">
+<header class="largo">
+<label  for="date">fecha de solicitud</label><br>
+<input class="nosombra" type="date"  name="solicitud">
+</header>
 
-<p>
-<label for="date">nombre completo</label><br>
-<input  type="name">
-</p>
+<div class="uno">
+<p>nombre completo</p>
+<input type="name">
+</div>
 
+<div class="uno">
+<p>fecha de nacimiento<p>
+<input type="date">
+</div>
 
-<p>
-<label for="email"> correo electronico</label><br>
+<div class="uno">
+<p>correo electronico</p>
 <input type="email">
-</p>
+</div>
+
+
+
+<div class="uno">
+<p>telefono</p>
+<input type="tel">
+</div>
+
 
 <div>
 seleccione su sexo
-           <input type="radio" name="sexo" value="hombre" /> Masculino
-        <input type="radio" name="sexo" value="mujer" /> Femenino
-        <input type="radio" name="sexo" value="mujer" /> otro
-   </div>
-<p>
+<input type="radio" name="sexo" value="hombre" /> Masculino
+<input type="radio" name="sexo" value="mujer" /> Femenino
+<input type="radio" name="sexo" value="mujer" /> otro
+</div>
 
- departamento
- </p>
-<p>
- <select>
+</br>
+
+
+
+<div class="uno">
+
+<p>departamento<p>
+
+<select>
 <option>amazonas</option>
 <option>arauca</option>
 <option>atlantico</option>
@@ -78,76 +92,14 @@ seleccione su sexo
 <option>vichada</option>
 </select>
 
-</p>
-<br>
-<p>
-<label>direccion</label>
-</p>
-<p>
-  <input type="text" placeholder="cra 22 #22c-22"
-</p>
-
- <p>
-seleccione el tipo de domicilio:
-
- <input type="radio" name="domicilio" value="casa" /> casa
- <input type="radio" name="domicilio" value="apartamento" /> apartamento
- <input type="radio" name="domicilio" value="finca" /> finca
- <input type="radio" name="domicilio" value="otro" /> otro
-</p>
+</div>
 
 
-<label for="date">especifica otro</label>
-<p>
-<input type="domicilio"><br>
-</p>
 
-<label for="date">numero de integrantes del domicilio</label>
-<p>
- <input type="number">
-</p>
+<div class="uno">
 
- ¿tienes experiencia con animales?
+<p>ciudad<p>
 
- <input type="radio" name="¿?" value="si" /> si
- <input type="radio" name="¿?" value="no" /> no
-
-
-<p>
- <label for="number">¿cuales son tus ingrsos mensuales?</label>
-</p>
-
- <p>
-<input type="number">
-</p>
-
-<p>
-<label for="text">¿cuanto tiempo piensas dedicarle a tu mascota?</label>
-<p>
-
-</p> 
-<input type="text">
-</p>
-
-<p>
-<label for="date">fecha de nacimiento</label>
-<p/>
-<p>
-<input type="date">
-
-<p>
-<label for="tel">telefono</label>
-</p>
-
-<p> 
-<input type="tel">
-<p/
-
-<p>
-ciudad
-</p>
-
-<p>
 <select>
 
 <option>leticia</option>
@@ -185,49 +137,118 @@ ciudad
 
 </select>
 
-</p> 
+</div> 
 
-<p>
-<label for="text">¿porque quieres adoptar una mascota?</label>
-</p>
+</br>
 
-<p>
+<div>
+<label>direccion</label>
+</div>
+  
+<div>
+<input type="text" placeholder="cra 22 #22c-22">
+</div>
+
+</br>
+
+<div>
+seleccione el tipo de domicilio:
+
+<input type="radio" name="domicilio" value="casa" /> casa
+<input type="radio" name="domicilio" value="apartamento" /> apartamento
+<input type="radio" name="domicilio" value="finca" /> finca
+<input type="radio" name="domicilio" value="otro" /> otro
+</div>
+
+</br>
+
+
+<label for="date">especifica otro</label>
+<div>
+<input type="domicilio">
+</div>
+
+</br>
+
+<div class="uno">
+<p>numero de integrantes del domicilio<p>
+<input type="number">
+</div>
+
+<div class="uno">
+<p>¿porque quieres adoptar una mascota?<p>
 <input type="text">
-</p>
+</div>
+
+
+</br>
+
+<div>
+¿tienes experiencia con animales?
+
+<input type="radio" name="¿?" value="si" /> si
+<input type="radio" name="¿?" value="no" /> no
+</div>
+
+</br>
+
+<div>
+<label for="number">¿cuales son tus ingrsos mensuales?</label>
+</div>
+<div>
+<input type="number">
+</div>
+
+</br>
+
+<div>
+<label for="text">¿cuanto tiempo piensas dedicarle a tu mascota?</label>
+</div>
+</div> 
+<input type="text">
+</div>
+
+</br>
+
 
 ¿tienes mascota?
 
- <input type="radio" name="¿?" value="si" /> si
- <input type="radio" name="¿?" value="no" /> no
-<p>
- <label for="number">¿cuantos ingresos dispones para tu mascota?</label>
-</p>
+<input type="radio" name="¿?" value="si" /> si
+<input type="radio" name="¿?" value="no" /> no
 
-<p>
-<input type="number">
-</p>
-
-<p>
-<label for="text">en caso de estar ausente por un tiempo ¿quien cuidaria tu mascota?</label>
-</p>
-
-<p>
-<input type="text">
-</p>
-
- <div>
-    <label class="button"></label>
-    <button type="submit">guardar</button>
-  </div>
-  <br>
-  <div>
 
 <div>
-    <label class="button"></label>
-    <button type="submit">control de respuestas</button>
-  </div>
-  <br>
-  <div>
+<label for="number">¿cuantos ingresos dispones para tu mascota?</label>
+</div>
+<div>
+<input type="number">
+</div>
+
+</br>
+
+<div>
+<label for="text">en caso de estar ausente por un tiempo ¿quien cuidaria tu mascota?</label>
+</div>
+<div>
+<input type="text">
+</div>
+
+</br>
+</section>
+
+<div>
+<label class="button"></label>
+<button type="submit">guardar</button>
+</div>
+<br>
+<div>
+
+<div>
+<label class="button"></label>
+<button type="submit">control de respuestas</button>
+</div>
+<br>
+<div>
 
 </body>
 </html>
